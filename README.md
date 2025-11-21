@@ -13,7 +13,7 @@
 
 ### 💫 Sobre mí
 
-Full-Stack Developer con experiencia en varios sistemas — desde **compiladores** y **blockchain** hasta aplicaciones web modernas.  
+Full-Stack Developer con experiencia en varios sistemas — desde **compiladores** y **blockchain** hasta aplicaciones web modernas.
 Me apasiona resolver problemas técnicos desafiantes, escribir código limpio y explorar tecnologías desde múltiples ángulos.
 
 <br>
@@ -126,8 +126,8 @@ Me apasiona resolver problemas técnicos desafiantes, escribir código limpio y 
 ### 📫 Conecta Conmigo
 
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/k-delta)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/tu-perfil)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:tu@email.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](www.linkedin.com/in/laura-catalina-preciado-ballen-kt6delta)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:datapreciado08@gmail.com)
 
 <br>
 
@@ -138,13 +138,13 @@ Me apasiona resolver problemas técnicos desafiantes, escribir código limpio y 
 <br>
 
 <div align="center">
-  <img src="https://github.com/k-delta/k-delta/blob/main/assets/footer.gif" width="100%" alt="Footer"/>
-  
+  <img src="https://github.com/k-delta/k-delta/blob/main/assets/footer.gif" width="50%" alt="Footer"/>
+
   <br><br>
-  
+
   **"First, solve the problem. Then, write the code."** – John Johnson
-  
+
   <br>
-  
+
   <i>💜 Gracias por visitar — siempre abierta a nuevos desafíos</i>
 </div>
