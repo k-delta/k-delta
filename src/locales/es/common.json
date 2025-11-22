@@ -66,7 +66,7 @@
         "preview": "#"
       },
       {
-        "title": "Spicologia Nuri",
+        "title": "Spicologia",
         "description": "Plataforma para gestionar informacion de clientes.",
         "image": "/src/images/projects/psicologo.png",
         "techs": ["React", "Strapi", "Express"],
@@ -126,7 +126,7 @@
   },
 "about": {
   "title": "Sobre mí",
-  "subtitle": "Código de día, gaming de noche ⚡",
+  "subtitle": "Apasionada por los desafíos ⚡",
   "description": "Full-Stack Developer especializada en crear sistemas que funcionan. Trabajo con Java, Python, React y Vue para construir desde aplicaciones web hasta proyectos más experimentales como blockchain y compiladores. Me apasiona el código limpio, los algoritmos eficientes y resolver problemas que otros evitan. Fuera del código, soy gamer y siempre estoy explorando nuevas tecnologías."
 },
   "contact": {
