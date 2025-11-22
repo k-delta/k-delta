@@ -44,7 +44,7 @@
       {
         "title": "Sistema de Inventario",
         "description": "Sistema de gestión de inventario desarrollado para el control de productos y existencias.",
-        "image": "/src/images/projects/a.jpg",
+        "image": "/src/images/projects/inventario.png",
         "techs": ["firebase", "Vue", "JavaScript", "Node", "MySQL", "Tailwind"],
         "code": "https://github.com/k-delta/inventario",
         "preview": "#"
@@ -52,7 +52,7 @@
       {
         "title": "Paguina de Tecnimontacargas",
         "description": "Aplicación web que muestra información de películas utilizando The Movie Database API.",
-        "image": "/src/images/projects/a.jpg",
+        "image": "/src/images/projects/tmd.png",
         "techs": ["React", "JavaScript", "CSS"],
         "code": "https://github.com/k-delta/TMD_page_Front",
         "preview": "#"
@@ -60,49 +60,41 @@
       {
         "title": "Juego 4 en Línea",
         "description": "Implementación del clásico juego 4 en línea con interfaz gráfica.",
-        "image": "/src/images/projects/a.jpg",
-        "techs": ["Java"],
+        "image": "/src/images/projects/linea.png",
+        "techs": ["Java","juegos"],
         "code": "https://github.com/k-delta/CUATRO-EN-LINEA",
-        "preview": "#"
-      },
-      {
-        "title": "Algoritmo de Dijkstra",
-        "description": "Implementación del algoritmo de Dijkstra para encontrar el camino más corto en un grafo.",
-        "image": "/src/images/projects/a.jpg",
-        "techs": ["Python", "Algoritmos"],
-        "code": "https://github.com/k-delta/Algoritmo-Dijistra",
-        "preview": "#"
-      },
-      {
-        "title": "Brazo Robótico",
-        "description": "Control de brazo robótico mediante interfaz web con Arduino.",
-        "image": "/src/images/projects/a.jpg",
-        "techs": ["Java", "Matemáticas"],
-        "code": "https://github.com/k-delta/3D-robotic-arm-movement",
-        "preview": "#"
-      },
-      {
-        "title": "Método Simplex",
-        "description": "Implementación del método simplex para programación lineal.",
-        "image": "/src/images/projects/a.jpg",
-        "techs": ["Python", "Matemáticas"],
-        "code": "https://github.com/k-delta/metodo-simplex",
-        "preview": "#"
-      },
-      {
-        "title": "Purgatory",
-        "description": "Videojuego de plataformas con niveles desafiante.",
-        "image": "/src/images/projects/a.jpg",
-        "techs": ["Unity", "C#", "Game Development"],
-        "code": "https://github.com/k-delta/Purgatory",
         "preview": "#"
       },
       {
         "title": "Spicologia Nuri",
         "description": "Plataforma para gestionar informacion de clientes.",
-        "image": "/src/images/projects/a.jpg",
+        "image": "/src/images/projects/psicologo.png",
         "techs": ["React", "Strapi", "Express"],
         "code": "https://github.com/k-delta/psicology_front",
+        "preview": "#"
+      },
+      {
+        "title": "Brazo Robótico",
+        "description": "Simulacion del movimiento en 3 dimensiones de un brazo robótico",
+        "image": "/src/images/projects/brazo.png",
+        "techs": ["Java", "Matemáticas"],
+        "code": "https://github.com/k-delta/3D-robotic-arm-movement",
+        "preview": "#"
+      },
+      {
+        "title": "Mapa de Traza",
+        "description": "Se realizo en los diferentes continentes ping de las mismas 3 paguinas y se dibujo el recorrido que tenia la informacion por el mundo",
+        "image": "/src/images/projects/traza.png",
+        "techs": ["Python"],
+        "code": "https://github.com/k-delta/Mapas_Traza",
+        "preview": "#"
+      },
+      {
+        "title": "Método Simplex",
+        "description": "Implementación del método simplex para programación lineal.",
+        "image": "/src/images/projects/simplex.png",
+        "techs": ["Python", "Matemáticas"],
+        "code": "https://github.com/k-delta/metodo-simplex",
         "preview": "#"
       }
     ]

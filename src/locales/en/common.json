@@ -69,7 +69,7 @@
         "title": "Dijkstra's Algorithm",
         "description": "Implementation of Dijkstra's algorithm to find the shortest path in a graph.",
         "image": "/src/images/projects/a.jpg",
-        "techs": ["Python", "Algorithms"],
+        "techs": ["Java", "Algorithms"],
         "code": "https://github.com/k-delta/Algoritmo-Dijistra",
         "preview": "#"
       },
