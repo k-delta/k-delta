@@ -11,7 +11,7 @@ export class GridField {
   private size: number = 50 // Tamaño de las celdas de la cuadrícula
   private readonly duration = 4000 // Duración de la animación en milisegundos
   private startTime: number = 0 // Tiempo de inicio de la animación
-  private _animationFrameId: number = 0 // ID del frame de animación
+  private animationFrameId: number = 0 // ID del frame de animación
 
   constructor(canvas: HTMLCanvasElement) {
     this.canvas = canvas // Asigna el canvas recibido
@@ -95,9 +95,9 @@ export class GridField {
 
     // Si la animación no ha terminado, continua la animación
     if (progress < 1) {
-      this._animationFrameId = requestAnimationFrame(this.animate.bind(this))
+      this.animationFrameId = requestAnimationFrame(this.animate.bind(this))
     } else {
-      this._animationFrameId = 0 // Reinicia el ID de la animación
+      this.animationFrameId = 0 // Reinicia el ID de la animación
     }
   }
 
