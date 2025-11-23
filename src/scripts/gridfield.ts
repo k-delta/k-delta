@@ -31,9 +31,23 @@ export class GridField {
 
   // Redimensiona el canvas al tamaño de la ventana
   private resizeCanvas(): void {
-    this.canvas.width = window.innerWidth // Establece el ancho del canvas
-    this.canvas.height = window.innerHeight // Establece la altura del canvas
-    this.size = Math.floor(Math.min(this.canvas.width, this.canvas.height) / 20) // Calcula el tamaño de la cuadrícula
+    // Obtener las dimensiones reales del canvas después del layout
+    const rect = this.canvas.getBoundingClientRect()
+    let width = rect.width || window.innerWidth
+    let height = rect.height || window.innerHeight
+
+    // Si el canvas no tiene dimensiones válidas, usar las dimensiones de la ventana
+    if (width <= 0 || height <= 0) {
+      width = window.innerWidth
+      height = window.innerHeight
+    }
+
+    // Establecer las dimensiones del canvas en píxeles
+    // Usar las dimensiones lógicas del canvas
+    this.canvas.width = width
+    this.canvas.height = height
+
+    this.size = Math.floor(Math.min(width, height) / 20) // Calcula el tamaño de la cuadrícula
     this.updateGridLines() // Actualiza las líneas de la cuadrícula
   }
 

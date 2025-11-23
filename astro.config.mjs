@@ -11,8 +11,12 @@ import compressor from 'astro-compressor'
 
 // https://astro.build/config
 export default defineConfig({
+  // Configuración para GitHub Pages
+  // Si tu repositorio se llama k-delta/k-delta (no es el repositorio de usuario),
+  // necesitas el base. Si es k-delta/k-delta.github.io, usa base: '/'
+  base: process.env.NODE_ENV === 'production' ? '/k-delta/' : '/',
   site: process.env.NODE_ENV === 'production'
-    ? 'https://k-delta.github.io/k-delta/'
+    ? 'https://k-delta.github.io'
     : URL,
   // Image optimization is enabled by default in Astro 3.0+
   // No need for explicit passthrough service
@@ -33,7 +37,9 @@ export default defineConfig({
       locales: ['es', 'en']
     }),
     sitemap({
-      canonicalURL: URL,
+      canonicalURL: process.env.NODE_ENV === 'production'
+        ? 'https://k-delta.github.io'
+        : URL,
       lastmod: new Date(),
       createLinkInHead: false,
       xmlns: {

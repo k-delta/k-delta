@@ -69,32 +69,46 @@ const { title, subtitle } = t('contact', {
 <script>
   import { GridField } from '@scripts/gridfield'
 
-  const canvas = document.querySelector('#grid') as HTMLCanvasElement
+  function initGridField() {
+    const canvas = document.querySelector('#grid') as HTMLCanvasElement
 
-  if (canvas) {
-    const gridField = new GridField(canvas)
+    if (!canvas) {
+      console.error("No se encontró el elemento 'canvas'")
+      return
+    }
 
-    const observer = new IntersectionObserver(
-      (entries) => {
-        entries.forEach((entry) => {
-          if (entry.isIntersecting) {
-            // Inicia la animación cuando el canvas entra en la vista
-            gridField.play()
-            // Deja de observar el canvas
-            observer.unobserve(canvas)
-          }
-        })
-      },
-      {
-        // Activar cuando al menos el 50% del canvas sea visible
-        threshold: 0.5
-      }
-    )
+    // Asegurar que el canvas tenga dimensiones antes de inicializar
+    // Esperar un frame para que el layout se complete
+    requestAnimationFrame(() => {
+      const gridField = new GridField(canvas)
 
-    // Observa el canvas
-    observer.observe(canvas)
+      const observer = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              // Inicia la animación cuando el canvas entra en la vista
+              gridField.play()
+              // Deja de observar el canvas
+              observer.unobserve(canvas)
+            }
+          })
+        },
+        {
+          // Activar cuando al menos el 50% del canvas sea visible
+          threshold: 0.5
+        }
+      )
+
+      // Observa el canvas
+      observer.observe(canvas)
+    })
+  }
+
+  // Asegurar que el DOM esté completamente cargado
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initGridField)
   } else {
-    // Mensaje de error si no se encuentra el canvas
-    console.error("No se encontró el elemento 'canvas'")
+    // Si el DOM ya está cargado, ejecutar inmediatamente
+    initGridField()
   }
 </script>
