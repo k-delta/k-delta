@@ -14,6 +14,8 @@ export default defineConfig({
   site: process.env.NODE_ENV === 'production'
     ? 'https://k-delta.github.io/k-delta/'
     : URL,
+  // Image optimization is enabled by default in Astro 3.0+
+  // No need for explicit passthrough service
   server: {
     host: true
   },
