@@ -47,7 +47,7 @@
         "image": "/src/images/projects/inventario.png",
         "techs": ["Firebase", "Vue", "JavaScript", "Node", "MySQL", "Tailwind"],
         "code": "https://github.com/k-delta/inventario",
-        "preview": "asdsa"
+        "preview": "#"
       },
       {
         "title": "Tecnimontacargas Page",
@@ -55,6 +55,14 @@
         "image": "/src/images/projects/tmd.png",
         "techs": ["React", "JavaScript", "CSS"],
         "code": "https://github.com/k-delta/TMD_page_Front",
+        "preview": "https://tecnimontacargas.com/"
+      },
+      {
+        "title": "Psychology",
+        "description": "Platform for managing customer information.",
+        "image": "/src/images/projects/psicologo.png",
+        "techs": ["React", "Strapi", "Express"],
+        "code": "https://github.com/k-delta/psicology_front",
         "preview": "#"
       },
       {
@@ -63,14 +71,6 @@
         "image": "/src/images/projects/linea.png",
         "techs": ["Java","juegos"],
         "code": "https://github.com/k-delta/CUATRO-EN-LINEA",
-        "preview": "#"
-      },
-      {
-        "title": "Psychology",
-        "description": "Platform for managing customer information.",
-        "image": "/src/images/projects/psicologo.png",
-        "techs": ["React", "Strapi", "Express"],
-        "code": "https://github.com/k-delta/psicology_front",
         "preview": "#"
       },
       {
