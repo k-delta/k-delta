@@ -14,7 +14,7 @@ interface Props {
   preview?: string
 }
 
-const { src, alt, title, description, techs, code } = Astro.props
+const { src, alt, title, description, techs, code, preview } = Astro.props
 
 const images = import.meta.glob<{ default: ImageMetadata }>(
   '/src/images/projects/*.{jpeg,jpg,png}'
@@ -60,7 +60,7 @@ if (!images[src])
         <Icon name="github" size={24} />
         código
       </a>
-      <a href="#">
+      <a href={preview} target="_blank" rel="noopener noreferrer">
         <Icon name="link" size={24} />
         demo
       </a>

@@ -47,7 +47,7 @@
         "image": "/src/images/projects/inventario.png",
         "techs": ["Firebase", "Vue", "JavaScript", "Node", "MySQL", "Tailwind"],
         "code": "https://github.com/k-delta/inventario",
-        "preview": "#"
+        "preview": "https://k-delta.github.io/Inventario/"
       },
       {
         "title": "Tecnimontacargas Page",
@@ -63,7 +63,7 @@
         "image": "/src/images/projects/psicologo.png",
         "techs": ["React", "Strapi", "Express"],
         "code": "https://github.com/k-delta/psicology_front",
-        "preview": "#"
+        "preview": "https://k-delta.github.io/psicology_front"
       },
       {
         "title": "4 in a Row Game",
@@ -71,7 +71,7 @@
         "image": "/src/images/projects/linea.png",
         "techs": ["Java","juegos"],
         "code": "https://github.com/k-delta/CUATRO-EN-LINEA",
-        "preview": "#"
+        "preview": "https://k-delta.github.io/CUATRO-EN-LINEA/"
       },
       {
         "title": "Robotic Arm",
@@ -79,7 +79,7 @@
         "image": "/src/images/projects/brazo.png",
         "techs": ["Java", "Mathematics"],
         "code": "https://github.com/k-delta/3D-robotic-arm-movement",
-        "preview": "#"
+        "preview": "https://k-delta.github.io/3D-robotic-arm-movement/"
       },
       {
         "title": "Trace Map",
@@ -87,7 +87,7 @@
         "image": "/src/images/projects/traza.png",
         "techs": ["Python"],
         "code": "https://github.com/k-delta/Mapas_Traza",
-        "preview": "#"
+        "preview": "https://k-delta.github.io/Mapas_Traza/"
       },
       {
         "title": "Simplex Method",
@@ -95,7 +95,7 @@
         "image": "/src/images/projects/simplex.png",
         "techs": ["Python", "Mathematics"],
         "code": "https://github.com/k-delta/metodo-simplex",
-        "preview": "#"
+        "preview": "https://k-delta.github.io/metodo-simplex"
       }
     ]
   },
